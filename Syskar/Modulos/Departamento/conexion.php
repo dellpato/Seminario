@@ -34,7 +34,7 @@
  	  	if ($tot > 0) {
  	     while ($row = mysql_fetch_assoc($res)) { ?>
  	  	<tr> 
-      	    <td align="center"><?php echo "".$row['id_departamento']."<br>";?></td> 
+      	    <td style="background:#FFFFFF" align="center"><?php echo "".$row['id_departamento']."<br>";?></td> 
       	    <td align="center"> <?php echo "".$row['nombre_depto']."<br>";?></td>
       	</tr>
       	<?php
